@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var LOGS = './logs/',
     fs = require('fs'),
     files =  fs.readdirSync(LOGS);
